@@ -1,4 +1,5 @@
 'use client';
+<h1>Welcome to hell</h1>
 import { useState } from "react";
 export default function Home() {
   return (
