@@ -4,7 +4,7 @@ import { useState } from "react";
 export default function Home() {
   return (
     <main>
-      <h1>Welcome to Incense Vibes </h1>
+      <h1>Welcome to Incense Vibes</h1>
       <p>Type your mood below and let the incense spirits guide you. </p>
     </main>
   );
@@ -36,7 +36,7 @@ return (
     fontFamily: 'fantasy', textAlign: 'center'
   }}>
     <h1>Incense Vibes</h1>
-    <p>Tell me your mood, and I'll match the perfect incense + affirmation.</p>
+    <p>Tell me your mood, and Ill match the perfect incense + affirmation.</p>
 
     <input
     type="text"
