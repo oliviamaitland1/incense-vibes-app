@@ -4,8 +4,8 @@ import { useState } from "react";
 export default function Home() {
   return (
     <main>
-      <h1>✨ Welcome to Incense Vibes ✨</h1>
-      <p>Type your mood below and let the incense spirits guide you. 💕</p>
+      <h1>Welcome to Incense Vibes </h1>
+      <p>Type your mood below and let the incense spirits guide you. </p>
     </main>
   );
 const [vibe, setVibe] = useState(''); // Store the recommended incense + affirmation
@@ -16,18 +16,18 @@ const handleRecommendation = () => {
 
   if (mood === 'calm' || mood === 'peace' || mood === 'relaxed')
   { 
-   setResult("☔ Try **Palo Santo** - Soft, grounding, and peaceful.\n Affirmation: I am safe, soft, and my peace is sacred.");
+   setResult("Try **Palo Santo** - Soft, grounding, and peaceful.\n Affirmation: I am safe, soft, and my peace is sacred.");
 } else if (mood === 'confident' || mood === 'that girl' || mood === 'amazing')
 {
-  setResult ("🔥 Try **Super Hit** - Bold, unapologetic, and magnetic.\n Affirmation: I walk in power and I attract with ease.");
+  setResult ("Try **Super Hit** - Bold, unapologetic, and magnetic.\n Affirmation: I walk in power and I attract with ease.");
   } else if (mood === 'money' || mood === 'abundance' ) 
 {
-  setResult ("🧿 Try **Gold Rain** - Luxury, expansive, lucky.\n Affirmation: Wealth flows to me effortlessly.")
+  setResult ("Try **Gold Rain** - Luxury, expansive, lucky.\n Affirmation: Wealth flows to me effortlessly.")
 } else if (mood === 'focused' || mood === 'clarity')
 {
-  setResult ("📚 Try **Rain Forest** - Crisp, clean, mental reset.\n Affirmation: My mind is clear. My path is open");
+  setResult ("Try **Rain Forest** - Crisp, clean, mental reset.\n Affirmation: My mind is clear. My path is open");
 } else 
-{ setResult ("🤔 Hmm... Try **Sandalwood** - a sacred all-purpose reset.\n Affirmation: I align, I breathe, I glow.");
+{ setResult ("Hmm... Try **Sandalwood** - a sacred all-purpose reset.\n Affirmation: I align, I breathe, I glow.");
   }
 };
 
@@ -35,8 +35,8 @@ return (
   <div style={{padding: '40px',
     fontFamily: 'fantasy', textAlign: 'center'
   }}>
-    <h1>💞Incense Vibes💖</h1>
-    <p>Tell me your mood, and I'll match the perfect incense + affirmation.💛</p>
+    <h1>Incense Vibes</h1>
+    <p>Tell me your mood, and I'll match the perfect incense + affirmation.</p>
 
     <input
     type="text"
