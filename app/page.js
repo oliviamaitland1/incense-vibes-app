@@ -1,7 +1,5 @@
   'use client'
-  export const metadata = {
-    title: 'Incense Vibes',
-    description: 'Match your mood to the perfect incense + affirmation',};
+  
 import { useState } from "react";
 export default function Home(){
 const [vibe, setVibe] = useState(''); // Store the recommended incense + affirmation
