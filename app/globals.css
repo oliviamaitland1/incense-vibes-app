@@ -3,7 +3,7 @@ body{
   padding: 0;
   font-family: sans-serif;
   animation: gradientBackground 15s ease infinite;
-  background: linear-gradient(-45deg, #3e1c53, #50266f, #5b1d74, #e493d0);
+  background: linear-gradient(-45deg, #ff8ec7, #ffe1ec, #5b1d74, #e493d0);
   background-size: 400% 400%;
   color: white;
 }
