@@ -18,3 +18,22 @@ body{
     background-position: 0% 50%
   }
 }
+.glow-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #ffcbf2
+  text-shadow
+  0 0 5px #f0a3c0
+  0 0 10px #f0a3c0
+  0 0 20px #f0a3c0
+  0 0 40px #e73c7e;
+  animation: flicker 2.5s infinite alternate;
+  text-align: center;
+  margin-top: 40px;
+}
+
+@keyframes flicker {
+  0% {opacity: 1;}
+  50% {opacity: 0.85;}
+  100% {opacity: 1;}
+}
