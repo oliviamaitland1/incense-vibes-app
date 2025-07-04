@@ -41,6 +41,10 @@ body{
   position:relative;
   display: inline-block;
 }
+.sparkle-wrapper {
+  position: relative;
+  display: inline-block;
+}
 .sparkle-wrapper::after {
   content: '';
   position: absolute;
