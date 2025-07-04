@@ -1,13 +1,9 @@
-'use client';
-<h1>Welcome to hell</h1>
+  'use client'
+  export const metadata = {
+    title: 'Incense Vibes',
+    description: 'Match your mood to the perfect incense + affirmation',};
 import { useState } from "react";
-export default function Home() {
-  return (
-    <main>
-      <h1>Welcome to Incense Vibes</h1>
-      <p>Type your mood below and let the incense spirits guide you. </p>
-    </main>
-  );
+export default function Home(){
 const [vibe, setVibe] = useState(''); // Store the recommended incense + affirmation
 const [result, setResult] = useState('')
 
