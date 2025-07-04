@@ -29,8 +29,7 @@ return (
   <div style={{padding: '40px',
     fontFamily: 'fantasy', textAlign: 'center'
   }}>
-    <div className="sparkle-wrapper">
-    <h1 className="glow-title">Incense Vibes</h1></div>
+    <h1 className="glow-title">Incense Vibes</h1>
     <p>Tell me your mood, and Ill match the perfect incense + affirmation.</p>
 
     <input
